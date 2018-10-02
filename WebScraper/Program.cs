@@ -47,8 +47,8 @@ namespace WebScraper
                         : null;
                 });
 
-                var result = driver.FindElementByXPath("//div[@id='main']");
-                Console.WriteLine(result.Text);
+                var result = driver.FindElementByXPath("//div[@id='main']").Text;
+                Console.WriteLine(result);
 
             }
         }
