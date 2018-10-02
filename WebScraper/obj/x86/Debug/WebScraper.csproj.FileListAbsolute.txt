@@ -1,0 +1,16 @@
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.csprojAssemblyReference.cache
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.csproj.CoreCompileInputs.cache
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebScraper.exe
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebScraper.pdb
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/HtmlAgilityPack.dll
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/System.Net.Http.Extensions.dll
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/System.Net.Http.Primitives.dll
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/System.Net.Http.Extensions.xml
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/System.Net.Http.Primitives.xml
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/HtmlAgilityPack.pdb
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/HtmlAgilityPack.xml
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.csproj.CopyComplete
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.exe
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.pdb
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebDriver.dll
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebDriver.xml
