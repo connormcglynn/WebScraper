@@ -47,7 +47,12 @@ namespace WebScraper
                         : null;
                 });
 
-                var result = driver.FindElementByXPath("//div[@id='main']").Text;
+                var result = driver.FindElementByXPath("//table[contains(@class,'_1TagL')]//tbody").Text;
+
+                // TODO: Create Stock object from res data for each scraped ticker
+                // TODO: Parse res data perhaps with Regex to split by spaces? 
+                // TODO: Once object is created, can use with MySQL to create database
+
                 Console.WriteLine(result);
 
             }

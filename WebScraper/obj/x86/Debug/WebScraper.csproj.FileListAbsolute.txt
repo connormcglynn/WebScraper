@@ -14,3 +14,5 @@
 /Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.pdb
 /Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebDriver.dll
 /Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebDriver.xml
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/bin/Debug/WebScraper.exe.config
+/Users/connormcglynn/Documents/CS Projects/WebScraper/WebScraper/obj/x86/Debug/WebScraper.exe.config
