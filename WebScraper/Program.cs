@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using System.Collections.Generic;
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -48,12 +49,17 @@ namespace WebScraper
                 });
 
                 var result = driver.FindElementByXPath("//table[contains(@class,'_1TagL')]//tbody").Text;
+                var results = result.Split(' ');
 
                 // TODO: Create Stock object from res data for each scraped ticker
                 // TODO: Parse res data perhaps with Regex to split by spaces? 
                 // TODO: Once object is created, can use with MySQL to create database
 
-                Console.WriteLine(result);
+                foreach (var s in results)
+                {
+                    Console.WriteLine("\n" + s);
+                }
+
 
             }
         }
