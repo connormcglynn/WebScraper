@@ -59,15 +59,10 @@ namespace WebScraper
 
                 IList<IWebElement> result = driver.FindElements(By.XPath("//tbody//tr")).ToList();
 
-                //String read = result.ToString();
-
-                foreach (var item in result)
+                foreach (IWebElement item in result)
                 {
-
                     Console.WriteLine(item.Text);
                 }
-
-
             }
 
 
