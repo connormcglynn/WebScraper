@@ -1,9 +1,21 @@
 ﻿<Properties StartupConfiguration="{C77C672A-6F53-46DD-8624-E769F46ECBAC}|Default">
   <MonoDevelop.Ide.ItemProperties.WebScraper PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebScraper/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebScraper/Database.cs">
     <Files>
-      <File FileName="WebScraper/Program.cs" Line="67" Column="50" />
+      <File FileName="WebScraper/Program.cs" Line="4" Column="32" />
+      <File FileName="WebScraper/Database.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebScraper" expanded="True">
+            <Node name="WebScraper" expanded="True">
+              <Node name="Database.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Linq;
+using System.Data.Linq.Mapping;
+using System.Data.Linq.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
