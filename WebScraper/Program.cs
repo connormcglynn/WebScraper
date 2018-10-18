@@ -51,21 +51,22 @@ namespace WebScraper
                         : null;
                 });
 
-                // Iterate over 
-                //for (var i = 0; i <= 9; i++) {
-                //string result = driver.FindElementByXPath("//tbody//tr[@data-index='" + i + "']").Text;
+                // First fetch the table from which we want to scrape/parse indiv row data
+                IWebElement table = driver.FindElement(By.XPath("//tbody"));
 
-                //foreach (var item in result)
+                // Second, parse indiv rows from table -- these will represent each stock row in our portfolio
+                List<IWebElement> row = new List<IWebElement>(table.FindElements(By.TagName("tr")));
+
+                // TODO: use ICollection, use IList<string[]> result = new List<string[]>
+
+                Console.WriteLine(row[3].Text);
+
+                //foreach (IWebElement item in row)
                 //{
-                //    Console.WriteLine(result.Split(' '));
+                //    Console.WriteLine(item.Text);
                 //}
 
-                IList<IWebElement> result = driver.FindElements(By.XPath("//tbody//tr")).ToList();
 
-                foreach (IWebElement item in result)
-                {
-                    Console.WriteLine(item.Text);
-                }
             }
 
 
