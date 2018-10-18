@@ -55,11 +55,35 @@ namespace WebScraper
                 IWebElement table = driver.FindElement(By.XPath("//tbody"));
 
                 // Second, parse indiv rows from table -- these will represent each stock row in our portfolio
-                List<IWebElement> row = new List<IWebElement>(table.FindElements(By.TagName("tr")));
+                List<IWebElement> rows = new List<IWebElement>(table.FindElements(By.TagName("tr")));
+                String strRowData = "";
 
-                // TODO: use ICollection, use IList<string[]> result = new List<string[]>
+                // Traverse each row...
+                foreach (var row in rows)
+                {
+                    // ... to fetch the columns
+                    List<IWebElement> tds = new List<IWebElement>(row.FindElements(By.TagName("td")));
+                    if (tds.Count > 0)
+                    {
+                        // Then traverse each column
+                        foreach (var td in tds)
+                        {
+                            // "\t\t" is used for Tab Space between two Text
+                            strRowData = strRowData + td.Text + "\t\t";
+                        }
+                    }
+                    else
+                    {
+                        // To print the data into the console
+                        Console.WriteLine("This is Header Row");
+                        Console.WriteLine(rows[0].Text.Replace(" ", "\t\t"));
+                    }
+                    Console.WriteLine(strRowData);
+                    strRowData = String.Empty;
+                }
 
-                Console.WriteLine(row[3].Text);
+
+                //Console.WriteLine(rows[3].Text);
 
                 //foreach (IWebElement item in row)
                 //{
