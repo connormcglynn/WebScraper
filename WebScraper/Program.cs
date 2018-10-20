@@ -63,21 +63,14 @@ namespace WebScraper
                 {
                     // ... to fetch the columns
                     List<IWebElement> tds = new List<IWebElement>(row.FindElements(By.TagName("td")));
-                    if (tds.Count > 0)
+
+                    // Then traverse each column
+                    foreach (var td in tds)
                     {
-                        // Then traverse each column
-                        foreach (var td in tds)
-                        {
-                            // "\t\t" is used for Tab Space between two Text
-                            strRowData = strRowData + td.Text + "\t\t";
-                        }
+                        // "\t\t" for tabs between tds
+                        strRowData = strRowData + td.Text + "\t\t";
                     }
-                    else
-                    {
-                        // To print the data into the console
-                        Console.WriteLine("This is Header Row");
-                        Console.WriteLine(rows[0].Text.Replace(" ", "\t\t"));
-                    }
+                    
                     Console.WriteLine(strRowData);
                     strRowData = String.Empty;
                 }
