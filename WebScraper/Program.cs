@@ -75,22 +75,13 @@ namespace WebScraper
                     strRowData = String.Empty;
                 }
 
-
-                //Console.WriteLine(rows[3].Text);
-
-                //foreach (IWebElement item in row)
-                //{
-                //    Console.WriteLine(item.Text);
-                //}
-
-
             }
 
 
 
-                // TODO: Create Stock object from res data for each scraped ticker
-                // TODO: Parse res data perhaps with Regex to split by spaces? 
-                // TODO: Once object is created, can use with MySQL to create database
+            // TODO: Create Stock object from res data for each scraped ticker
+            // TODO: Once object is created, can use with MySQL to create database
+            // TODO: use MVC (create new MVC app) in visualstudio 
 
 
 
